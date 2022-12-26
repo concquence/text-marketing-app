@@ -3,7 +3,7 @@
 The application allows you to create mass texting advertising campaigns, obtain statistics on completed campaigns and sends notifications to external API. It starts mailing to customer database with customers matched certain conditions (mobile phone provider code and/or customer tag). The mailing period is limited by campaign's start and end time (if it be determined). The application API allows you:
 - To create, update and delete a customer with its attributes
 - To create, update and delete an advertising campaign with its attributes
-- To get a general statistics on different campaigns or detailed statistics on a particular campaign
+- To get general statistics on different campaigns or detailed statistics on a particular campaign
 - To process active mailings and send messages to external API
 
 To get the application running you need to install requirements from requirements.txt file:
