@@ -43,8 +43,6 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'django_celery_results',
     'drf_yasg',
-    # 'phonenumber_field',
-    # 'django_filters',
     'djoser',
 ]
 
@@ -113,9 +111,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'ru'
+LANGUAGE_CODE = 'en-US'
 
-TIME_ZONE = 'Europe/Moscow'
+TIME_ZONE = 'Europe/London'
 
 USE_I18N = True
 
@@ -232,4 +230,4 @@ CELERY_BROKER_URL = 'amqp://localhost'
 CELERY_ACCEPT_CONTENT = ['application/json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
-CELERY_TIMEZONE = 'Europe/Moscow'
+CELERY_TIMEZONE = 'Europe/London'
